@@ -23,7 +23,7 @@ def normalize(x,size):
 
 def levenshtein_distance(a,b):
     K= np.zeros((len(a)+1,len(b)+1))
-    A_len = len(a)
+    A_len = len(a)#;:
     B_len = len(b)
     for i in range(A_len+1):
         K[i][0] = i
